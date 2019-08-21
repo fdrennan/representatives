@@ -1,0 +1,24 @@
+Package: representatives
+Type: Package
+Title: Management of US Representative Data
+Version: 0.1.0
+Author: Freddy Drennan
+Maintainer: Freddy Drennan <drennanfreddy@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Imports:
+    rvest,
+    xml2,
+    magrittr,
+    twitteR,
+    purrr,
+    configr,
+    tibble,
+    dplyr,
+    reticulate,
+    lubridate,
+    rtweet
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

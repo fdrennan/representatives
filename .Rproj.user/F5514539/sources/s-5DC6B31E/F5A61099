@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566352895998.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F5A61099",
+    "lastKnownWriteTime" : 1566392395,
+    "last_content_update" : 1566392395521,
+    "path" : "~/Documents/R/representatives/test_script.R",
+    "project_path" : "test_script.R",
+    "properties" : {
+        "cursorPosition" : "58,4",
+        "disableDependencyDiscovery" : "1",
+        "scrollLine" : "32",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
