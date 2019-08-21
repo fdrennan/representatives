@@ -1,8 +1,0 @@
-datasets="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/datasets"
-grDevices="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/grDevices"
-graphics="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/graphics"
-methods="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/methods"
-representatives="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/representatives"
-stats="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/stats"
-twitteR="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/twitteR"
-utils="/Library/Frameworks/R.framework/Versions/3.6/Resources/library/utils"
