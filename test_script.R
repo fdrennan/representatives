@@ -6,13 +6,16 @@ library(RPostgreSQL)
 library(tictoc)
 
 if (FALSE) {
+  virtualenv_remove("reps")
   install_python(envname = "reps")
   use_virtualenv('reps')
   configure_aws()
 }
 
+use_virtualenv('reps')
 
-if (FALSE) {
+
+if (TRUE) {
   if(!'reps' %in% keyfile_list()$key_name)
     keyfile_create('reps', save_to_directory = TRUE)
 
@@ -24,16 +27,18 @@ if (FALSE) {
 
   instance_id <- ec2_instance_create(
     image_id = 'ami-05c1fa8df71875112',
-    instance_type='t2.nano',
+    instance_type='t2.large',
     min = 1,
     max = 1,
     key_name = 'reps',
     security_group_id = security_group_id,
-    instance_storage = 20,
+    instance_storage = 40,
     user_data = ec2_instance_script()
   )
 
   # ec2_instance_stop(instance_id[[1]]$instance_id, terminate = TRUE)
+
+  Sys.sleep(10)
 
   public_ip_address <-
     ec2_get_info() %>%
@@ -48,14 +53,14 @@ if (FALSE) {
     )
   )
 
-
 }
 
 
 if(TRUE) {
   repeat({
     try(update_tweets())
-    Sys.sleep(900)
+    message("Stopped at: ", Sys.time())
+    Sys.sleep(90)
   })
 }
 

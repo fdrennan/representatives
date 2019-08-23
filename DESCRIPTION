@@ -17,7 +17,11 @@ Imports:
     dplyr,
     reticulate,
     lubridate,
-    rtweet
+    rtweet,
+    DBI,
+    RPostgreSQL,
+    dbplyr,
+    stringr
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
