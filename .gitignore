@@ -3,3 +3,4 @@ reps.pem
 config.yaml
 .httr-oauth
 .Rproj.user
+example.R
